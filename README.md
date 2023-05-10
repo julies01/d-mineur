@@ -1,2 +1,2 @@
 # d-mineur
-test démineur
+démineur
