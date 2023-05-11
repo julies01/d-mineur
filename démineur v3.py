@@ -398,8 +398,8 @@ class Grille :
          print("Tu es tombé sur une bombe, tu as déminé " + str(LeDemineur.nbcasedemi()) + "cases  en " + str(tempsfinal) +" min ! La partie s'arrête ici !\n")
          print("Voici la solution :\n")
          print(solution)
-         j1.nbp += 1
          if co == 'O':
+            j1.nbp += 1
             LeDemineur.transfertdata()
          vrejouer = str(input("Si tu veux rejouer, saisis 'R', sinon saisis 'N'.\n"))
          while vrejouer != 'R' and vrejouer != 'N' :
@@ -508,8 +508,8 @@ class Jeu :
          print("\n Tu as gagné, félicitations tu as déminé tout le terrain en " + str(tempsfinal) +" min !\n")
          print("Voici la solution :\n")
          print(solution)
-         j1.nbp += 1
          if co == 'O':
+            j1.nbp += 1
             LeDemineur.transfertdata()
          vrejouer = str(input("Si tu veux rejouer, saisis 'R', sinon saisis 'N'.\n"))
          while vrejouer != 'R' and vrejouer != 'N' :
